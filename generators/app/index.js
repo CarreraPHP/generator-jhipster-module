@@ -4,7 +4,6 @@ const mkdirp = require('mkdirp');
 const packagejs = require('../../package.json');
 
 module.exports = class extends Generator {
-
     get initializing() {
         return {
             displayLogo() {
@@ -30,7 +29,7 @@ ${chalk.red.bold('       all::and::in:the:darkness:bind')}
 ${chalk.red.bold('         them:In:the:Land:of:JHipster')}
 ${chalk.red.bold('            where:::the::Shadows')}
 ${chalk.red.bold('                 :::lie.:::')}\n`);
-                this.log(chalk.white.bold('         http://jhipster.github.io\n'));
+                this.log(chalk.white.bold('         http://www.jhipster.tech\n'));
                 this.log(chalk.white(`Welcome to the ${chalk.bold('JHipster Module')} Generator! ${chalk.yellow(`v${packagejs.version}\n`)}`));
             }
         };
